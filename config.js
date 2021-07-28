@@ -1,5 +1,5 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
+  Admins: ["830801613638729728", "853167253116551168"], //Admins of the bot
   ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
@@ -14,14 +14,14 @@ module.exports = {
   IconURL:
     "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/logo.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   Permissions: 2205280576, //Bot Inviting Permissions
-  Website: process.env.Website || "http://localhost", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
+  Website: process.env.Website || "0.0.0.0", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
 
   //Lavalink
    Lavalink: {
     id: "Main",
-    host: "lava.link",
-    port: 80,
-    pass: "youshallnotpass", 
+    host: "lava.sudhan.tech",
+    port: 1234,
+    pass: "CodingWithSudhan", 
   },
   
   //Alternate Lavalink
@@ -36,7 +36,7 @@ module.exports = {
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "7072b6925f724777a37f6bf3886a3f5b", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "a2ee946d2d384a039fff96b58dc64345", //Spotify Client Secret
   },
 };
